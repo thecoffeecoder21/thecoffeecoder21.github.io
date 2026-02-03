@@ -1,0 +1,1391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--==================== UNICONS ====================-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+
+    <!--==================== SWIPER CSS ====================-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min_old.css">
+
+    <!--==================== CSS ====================-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>Aman's Portfolio Website</title>
+</head>
+
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">S Aman</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class="uil uil-estate nav__icon"></i> Home
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link active-link">
+                            <i class="uil uil-user nav__icon"></i> About
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link active-link">
+                            <i class="uil uil-file-bookmark-alt nav__icon"></i> Skills
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#services" class="nav__link active-link">
+                            <i class="uil uil-bag-alt nav__icon"></i> Services
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#portfolio" class="nav__link active-link">
+                            <i class="uil uil-scenery nav__icon"></i> Portfolio
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link active-link">
+                            <i class="uil uil-envelope-edit nav__icon"></i> Contact Me
+                        </a>
+                    </li>
+
+                </ul>
+                <i class="uil uil-times nav__close" id="nav-close"></i>
+            </div>
+            <div class="nav__btns">
+                <!-- change theme button -->
+                <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="uil uil-apps"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__content grid">
+                    <div class="home__social">
+                        <a href="https://www.linkedin.com/in/aman-kumar-sahu/" target="_blank"
+                            class="home__social-icon">
+                            <i class="uil uil-linkedin-alt"></i>
+                        </a>
+
+                        <a href="https://github.com/thecoffeecoder21" target="_blank" class="home__social-icon">
+                            <i class="uil uil-github-alt"></i>
+                        </a>
+
+                        <a href="" class="home__social-icon">
+
+                        </a>
+                    </div>
+
+                    <div class="home__img">
+                        <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <mask id="mask0" mask-type="alpha">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                    130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                    97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+                            </mask>
+                            <g mask="url(#mask0)">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                    165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                    129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+
+                                <image class="home__blob-img" x='14' y='0' xlink:href="assets\img\portfolio.png" />
+                            </g>
+                        </svg>
+                    </div>
+
+                    <div class="home__data">
+                        <h1 class="home__title">Hi, I am Aman</h1>
+                        <h3 class="home__subtitle">Data Scientist</h3>
+                        <p class="home__description">Passionate Data Scientist with 3+ years of experience building ML
+                            and GenAI solutions, specializing in LLM pipelines, RAG, and knowledge graph-driven
+                            automation.
+                        </p>
+                        <a href="#contact" class="button button--flex"> Contact Me
+                            <i class="uil uil-envelope-edit nav__icon button__icon"> </i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="home_scroll">
+                    <a href="#about" class="home__scroll-button button--flex">
+                        <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                        <span class="home__scroll-name">Scroll down</span>
+                        <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+        <!--==================== ABOUT ====================-->
+        <section class="about section" id="about">
+            <h2 class="section__title">About Me</h2>
+            <span class="section__subtitle">My Introduction</span>
+
+            <div class="about__container container grid">
+                <img src="assets/img/about.jpg" alt="" class="about__img">
+
+                <div class="about__data">
+                    <p class="about__description">
+                        Data Scientist expert in Python, Gen-AI, and Deep Learning. Proven track record in delivering
+                        high-impact solutions for global clients like KPMG and Arcadis.
+                    </p>
+                    <div class="about__info">
+                        <div>
+                            <span class="about__info-title">03+</span>
+                            <span class="about__info-name">Years<br> Experience</span>
+                        </div>
+
+                        <div>
+                            <span class="about__info-title">10+</span>
+                            <span class="about__info-name">Completed <br> Projects</span>
+                        </div>
+
+                        <div>
+                            <span class="about__info-title">04+</span>
+                            <span class="about__info-name">Companies <br> worked </span>
+                        </div>
+                    </div>
+
+                    <div class="about__buttons">
+                        <a download="" href="assets/pdf/AmanSahu_9664866438_18_11_2025.pdf" class="button button--flex">
+                            Download CV
+                            <i class="uil uil-file-download-alt"> </i>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!--==================== SKILLS ====================-->
+        <section class="skills section" id="skills">
+            <h2 class="section__title">Skills</h2>
+            <span class="section__subtitle">My Technical Skills</span>
+
+            <div class="skills__container container grid">
+                <div>
+                    <!--==================== SKILL 1 ====================-->
+                    <div class="skills__content skills__open">
+
+                        <div class="skills__header">
+                            <!-- <i class="uil uil-brackets-curly skills__icon"></i> -->
+                            <i class="uil uil-analysis skills__icon"></i>
+
+                            <div>
+                                <h1 class="skills__title">Data <br> Scientist</h1>
+                                <span class="skills__subtitle">More than 2 years</span>
+                            </div>
+
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+
+                        <div class="skills__list grid">
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills_name">Python</h3>
+                                    <span class="skills__number">9/10</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__html" style="width: 90%"></span>
+                                </div>
+                            </div>
+
+
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills_name">SQL & Databases</h3>
+                                    <span class="skills__number">8.5/10</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__js" style="width: 85%"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills_name">Graph Analytics (Neo4j)</h3>
+                                    <span class="skills__number">8/10</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__js" style="width: 80%"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills_name">NLP & Text Mining</h3>
+                                    <span class="skills__number">8.5/10</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__js" style="width: 85%"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--==================== SKILL 2 ====================-->
+                    <div class="skills__content skills__close">
+                        <div class="skills__header">
+                            <!--<i class="uil uil-server skills__icon"></i>-->
+                            <i class="uil uil-robot skills__icon"></i>
+
+                            <div>
+                                <h1 class="skills__title">Machine Learning Engineer</h1>
+                                <span class="skills__subtitle">for 1 year</span>
+                            </div>
+
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills_name">Machine Learning</h3>
+                                    <span class="skills__number">7/10</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__ml"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills_name">Deep Learning</h3>
+                                    <span class="skills__number">6/10</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__dl"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills_name">Artificial Intelligence</h3>
+                                    <span class="skills__number">6/10</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__ai"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div>
+                    <!--==================== SKILL 3 ====================-->
+                    <div class="skills__content skills__close">
+                        <div class="skills__header">
+                            <!--<i class="uil uil-server skills__icon"></i>-->
+                            <i class="uil uil-android skills__icon"></i>
+                            <div>
+                                <h1 class="skills__title">Android Developer</h1>
+                                <span class="skills__subtitle">for 1 year</span>
+                            </div>
+
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills_name">Android Studio</h3>
+                                    <span class="skills__number">7/10</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__android_studio"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills_name">Flutter</h3>
+                                    <span class="skills__number">7/10</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__flutter"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--==================== SKILL 4 ====================-->
+                    <div class="skills__content skills__close">
+                        <div class="skills__header">
+                            <i class="uil uil-brain skills__icon"></i>
+                            <div>
+                                <h1 class="skills__title">Generative AI & Agentic AI</h1>
+                                <span class="skills__subtitle">Advanced Solutions</span>
+                            </div>
+
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills_name">LangGraph & LangChain</h3>
+                                    <span class="skills__number">9/10</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__python" style="width: 90%"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills_name">LLMs Fine-tuning</h3>
+                                    <span class="skills__number">8.5/10</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__css" style="width: 85%"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills_name">RAG & Vector DBs</h3>
+                                    <span class="skills__number">8.5/10</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__cpp" style="width: 85%"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills_name">Prompt Engineering</h3>
+                                    <span class="skills__number">9/10</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__python" style="width: 90%"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== QUALIFICATION ====================-->
+        <section class="qualification section">
+            <h2 class="section__title">Qualifications</h2>
+            <span class="section__subtitle">My Personal Journey</span>
+
+            <div class="qualification__container container">
+                <div class="qualification__tabs">
+                    <div class="qualification__button button-flex qualification__active" data-target='#education'>
+                        <i class="uil uil-graduation-cap qualification__icon"></i>
+                        Education
+                    </div>
+
+                    <div class="qualification__button button-flex" data-target='#work'>
+                        <i class="uil uil-briefcase-alt qualification__icon"></i>
+                        Work
+                    </div>
+                </div>
+
+                <div class="qualification__sections">
+                    <!--==================== EDUCATION CONTENT 1 ====================-->
+                    <div class="qualification__content qualification__active" data-content id="education">
+
+                        <!--==================== QUALIFICATION 4 ====================-->
+                        <div class="qualification__data">
+                            <div></div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <!--<span class="qualification__line"></span>-->
+                            </div>
+
+                            <div>
+                                <h3 class="qualification__title">IITM BS Degree</h3>
+                                <span class="qualification__subtitle">IIT Madras (Foundation + Diploma)</span>
+                                <div class="qualification__calender">
+                                    <i class="uil uil-schedule"></i>
+                                    2025 (8.16 CGPA)
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--==================== QUALIFICATION 1 ====================-->
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title">B.Tech - IT</h3>
+                                <span class="qualification__subtitle">K J Somaiya Institute of Engineering</span>
+                                <div class="qualification__calender">
+                                    <i class="uil uil-schedule"></i>
+                                    2018-2022 (9.04 CGPA)
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+
+                        </div>
+
+                        <!--==================== QUALIFICATION 2 ====================-->
+                        <div class="qualification__data">
+                            <div></div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+
+                            <div>
+                                <h3 class="qualification__title">Higher Secondary Certificate (HSC)</h3>
+                                <span class="qualification__subtitle">Kendriya Vidyalaya Bhandup</span>
+                                <div class="qualification__calender">
+                                    <i class="uil uil-schedule"></i>
+                                    2018 (81.80%)
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--==================== QUALIFICATION 3 ====================-->
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title">Secondary School Certificate (SSC)</h3>
+                                <span class="qualification__subtitle">Kendriya Vidyalaya Bhandup</span>
+                                <div class="qualification__calender">
+                                    <i class="uil uil-schedule"></i>
+                                    2016 (91.20%)
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+
+                        </div>
+
+
+                        <!--==================== QUALIFICATION 3 ====================-->
+                        <!-- <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title">I.T. Engineer</h3>
+                                <span class="qualification__subtitle">K J Somaiya Institute of Engineering and
+                                    Inforanation Technology</span>
+                                <div class="qualification__calender">
+                                    <i class="uil uil-schedule"></i>
+                                    2018-2022
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div> -->
+
+
+
+
+                    </div>
+
+                    <!--==================== WORK EXP CONTENT  ====================-->
+                    <div class="qualification__content" data-content id="work">
+                        <!--==================== QUALIFICATION 1 ====================-->
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title">Data Scientist</h3>
+                                <span class="qualification__subtitle">KPMG Global Services</span>
+                                <div class="qualification__calender">
+                                    <i class="uil uil-schedule"></i>
+                                    Sept 2025 - Present
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+
+                        </div>
+
+                        <!--==================== QUALIFICATION 2 ====================-->
+                        <div class="qualification__data">
+                            <div></div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+
+                            <div>
+                                <h3 class="qualification__title">Associate Consultant</h3>
+                                <span class="qualification__subtitle">Arcadis</span>
+                                <div class="qualification__calender">
+                                    <i class="uil uil-schedule"></i>
+                                    June 2023 – Aug 2025
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                        <!--==================== QUALIFICATION 3 ====================-->
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title">Data Engineer</h3>
+                                <span class="qualification__subtitle">GEP Worldwide</span>
+                                <div class="qualification__calender">
+                                    <i class="uil uil-schedule"></i>
+                                    June 2022 – June 2023
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <!--<span class="qualification__line"></span>-->
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+        <!--==================== SERVICES ====================-->
+        <section class="services section" id="services">
+            <h2 class="section__title">Services</h2>
+            <span class="section__subtitle">What i offer</span>
+
+            <div class="services__container container grid">
+
+                <!--==================== SERVICES 1 ====================-->
+                <div class="services__content">
+                    <div>
+                        <i class="uil uil-web-grid services__icon"></i>
+                        <h3 class="services__title"> LLM & GenAI <br> Solutions</h3>
+                    </div>
+
+                    <span class="button button--flex button--small button--link services__button">
+                        View More
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <h4 class="services__modal-title">GenAI <br> Solutions</h4>
+                            <i class="uil uil-times services__modal-close"></i>
+
+                            <ul class="services__modal-services grid">
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>RAG pipelines with Azure OpenAI.</p>
+                                </li>
+
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Text-to-SQL Systems.</p>
+                                </li>
+
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Knowledge Graph Automation.</p>
+                                </li>
+
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Custom LLM Fine-tuning.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!--==================== SERVICES 2 ====================-->
+                <div class="services__content">
+                    <div>
+                        <i class="uil uil-arrow services__icon"></i>
+                        <h3 class="services__title"> Data <br> Science</h3>
+                    </div>
+
+                    <span class="button button--flex button--small button--link services__button">
+                        View More
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <h4 class="services__modal-title">Data <br> Scientist </h4>
+                            <i class="uil uil-times services__modal-close"></i>
+
+                            <ul class="services__modal-services grid">
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p> End-to-end ML Pipeline Development.</p>
+                                </li>
+
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p> Predictive Modeling & Analytics.</p>
+                                </li>
+
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p> Natural Language Processing (NLP).</p>
+                                </li>
+
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p> Data Visualization & Dashboards.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!--==================== SERVICES 3 ====================-->
+                <div class="services__content">
+                    <div>
+                        <i class="uil uil-pen services__icon"></i>
+                        <h3 class="services__title"> ML <br> Engineer</h3>
+                    </div>
+
+                    <span class="button button--flex button--small button--link services__button">
+                        View More
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <h4 class="services__modal-title">ML <br> Engineering </h4>
+                            <i class="uil uil-times services__modal-close"></i>
+
+                            <ul class="services__modal-services grid">
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Deep Learning Architectures (CNNs, RNNs).</p>
+                                </li>
+
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Model Deployment & Optimization.</p>
+                                </li>
+
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Vector Databases (Pinecone, ChromaDB).</p>
+                                </li>
+
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Scalable AI Solutions on Cloud.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!--==================== PORTFOLIO ====================-->
+        <section class="portfolio section" id="portfolio">
+            <h2 class="section__title">Portfolio</h2>
+            <span class="section__subtitle">Most Recent Work</span>
+
+            <div class="portfolio__container container swiper-container">
+                <div class="swiper-wrapper">
+                    <!-- Project 1 -->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/project_contract.png" alt="" class="portfolio__img">
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Contract Data Extraction</h3>
+                            <p class="portfolio__description">RAG pipeline using Azure OpenAI + AI Search to extract key
+                                fields from 2,400+ unstructured contracts.</p>
+                            <span class="button button--flex button--small portfolio__button"
+                                data-modal-target="#project-1">
+                                View Details <i class="uil uil-arrow-right button__icon"></i>
+                            </span>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/project_tap_card.jpg" alt="" class="portfolio__img">
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Tap Card Digitization</h3>
+                            <p class="portfolio__description">End-to-end digitization of 10.6K+ Tap Cards using Azure
+                                Custom Document Extraction models.</p>
+                            <span class="button button--flex button--small portfolio__button"
+                                data-modal-target="#project-2">
+                                View Details <i class="uil uil-arrow-right button__icon"></i>
+                            </span>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/project_graphrag.png" alt="" class="portfolio__img">
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">GraphRAG using Neo4j</h3>
+                            <p class="portfolio__description">Knowledge graph from legal PDFs using AzureOCR, LangChain
+                                & Neo4j.</p>
+                            <span class="button button--flex button--small portfolio__button"
+                                data-modal-target="#project-3">
+                                View Details <i class="uil uil-arrow-right button__icon"></i>
+                            </span>
+                        </div>
+                    </div>
+
+                    <!-- Project 4 -->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/project_text2sql.png" alt="" class="portfolio__img">
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Text-to-SQL Systems</h3>
+                            <p class="portfolio__description">ReAct Agent based SQLToolkit & Streamlit app with GPT-4o.
+                            </p>
+                            <span class="button button--flex button--small portfolio__button"
+                                data-modal-target="#project-4">
+                                View Details <i class="uil uil-arrow-right button__icon"></i>
+                            </span>
+                        </div>
+                    </div>
+
+                    <!-- Project 5 -->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/project_rag.png" alt="" class="portfolio__img">
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">RAG System (Flan T5)</h3>
+                            <p class="portfolio__description">Optimized RAG using LangChain, FAISS & Google Flan T5.</p>
+                            <span class="button button--flex button--small portfolio__button"
+                                data-modal-target="#project-5">
+                                View Details <i class="uil uil-arrow-right button__icon"></i>
+                            </span>
+                        </div>
+                    </div>
+
+                    <!-- Project 6 -->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/project_nrw.png" alt="" class="portfolio__img">
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">NRW Leak Detection</h3>
+                            <p class="portfolio__description">GNN-based (ChebNET) leak detection system for Water
+                                Networks.</p>
+                            <span class="button button--flex button--small portfolio__button"
+                                data-modal-target="#project-6">
+                                View Details <i class="uil uil-arrow-right button__icon"></i>
+                            </span>
+                        </div>
+                    </div>
+
+                    <!-- Project 7 -->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/project_it_ticket.png" alt="" class="portfolio__img">
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">IT Ticket Analysis</h3>
+                            <p class="portfolio__description">Analysis using keyBERT & LDA, reducing resolution time by
+                                30%.</p>
+                            <span class="button button--flex button--small portfolio__button"
+                                data-modal-target="#project-7">
+                                View Details <i class="uil uil-arrow-right button__icon"></i>
+                            </span>
+                        </div>
+                    </div>
+
+                    <!-- Project 8 -->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/project_spatial_data.png" alt="" class="portfolio__img">
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Spatial Analytics App</h3>
+                            <p class="portfolio__description">Web app using Plotly Dash & ArcGIS for spatial data.</p>
+                            <span class="button button--flex button--small portfolio__button"
+                                data-modal-target="#project-8">
+                                View Details <i class="uil uil-arrow-right button__icon"></i>
+                            </span>
+                        </div>
+                    </div>
+
+                    <!-- Project 9 -->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/project_beliefsat.png" alt="" class="portfolio__img">
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">BeliefSat-0 Nanosatellite</h3>
+                            <p class="portfolio__description">Command & Telemetry developer for ISRO PSLV-C58 launch.
+                            </p>
+                            <span class="button button--flex button--small portfolio__button"
+                                data-modal-target="#project-9">
+                                View Details <i class="uil uil-arrow-right button__icon"></i>
+                            </span>
+                        </div>
+                    </div>
+
+                    <!-- Project 10 -->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/project_resume.png" alt="" class="portfolio__img">
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Resume Ranking System</h3>
+                            <p class="portfolio__description">Automated ranking using TF-IDF & Word2Vec.</p>
+                            <span class="button button--flex button--small portfolio__button"
+                                data-modal-target="#project-10">
+                                View Details <i class="uil uil-arrow-right button__icon"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Add Arrows -->
+                <div class="swiper-button-next">
+                    <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                </div>
+
+                <div class="swiper-button-prev">
+                    <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                </div>
+
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+
+            <!-- Portfolio Modals -->
+            <div class="portfolio__modals">
+                <!-- Modal 1 -->
+                <div class="services__modal" id="project-1">
+                    <div class="services__modal-content portfolio__modal-content">
+                        <h4 class="services__modal-title">Contract Data Extraction <span
+                                class="portfolio__badge">RAG</span></h4>
+                        <i class="uil uil-times services__modal-close" data-modal-close></i>
+                        <div class="portfolio__modal-body">
+                            <div class="portfolio__modal-text">
+                                <p class="portfolio__modal-description">Built a RAG pipeline using Azure OpenAI + Azure
+                                    AI Search to extract 20 key fields from 2,400+ unstructured contract documents.</p>
+                                <ul class="portfolio__modal-features">
+                                    <li>Created 135-record annotated dataset.</li>
+                                    <li>Refined prompt-based extraction logic.</li>
+                                    <li>High-accuracy models for complex fields.</li>
+                                </ul>
+                                <div class="portfolio__modal-tech">
+                                    <span>Python</span><span>Azure OpenAI</span><span>LangChain</span>
+                                </div>
+                            </div>
+                            <div class="portfolio__modal-image">
+                                <img src="assets/img/work1.jpg" alt="Contract Data Extraction Project">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal 2 -->
+                <div class="services__modal" id="project-2">
+                    <div class="services__modal-content portfolio__modal-content">
+                        <h4 class="services__modal-title">Tap Card Digitization <span class="portfolio__badge">CV</span>
+                        </h4>
+                        <i class="uil uil-times services__modal-close" data-modal-close></i>
+                        <div class="portfolio__modal-body">
+                            <div class="portfolio__modal-text">
+                                <p class="portfolio__modal-description">Led digitization of 10.6K+ Tap Cards, building a
+                                    template-classification pipeline and training Azure Custom Document Extraction
+                                    models.</p>
+                                <ul class="portfolio__modal-features">
+                                    <li>Automated extraction of key fields.</li>
+                                    <li>Structured outputs for QC review.</li>
+                                </ul>
+                                <div class="portfolio__modal-tech">
+                                    <span>Azure AI</span><span>Python</span><span>CV</span>
+                                </div>
+                            </div>
+                            <div class="portfolio__modal-image">
+                                <img src="assets/img/work2.jpg" alt="Tap Card Digitization Project">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal 3 -->
+                <div class="services__modal" id="project-3">
+                    <div class="services__modal-content portfolio__modal-content">
+                        <h4 class="services__modal-title">GraphRAG using Neo4j <span
+                                class="portfolio__badge">GraphRAG</span></h4>
+                        <i class="uil uil-times services__modal-close" data-modal-close></i>
+                        <div class="portfolio__modal-body">
+                            <div class="portfolio__modal-text">
+                                <p class="portfolio__modal-description">Automated structured field extraction from legal
+                                    PDFs to build a Neo4j-based knowledge graph.</p>
+                                <ul class="portfolio__modal-features">
+                                    <li>LangChain LLMGraphTransformer.</li>
+                                    <li>Cypher querying & Q&A.</li>
+                                </ul>
+                                <div class="portfolio__modal-tech">
+                                    <span>Neo4j</span><span>LangChain</span><span>AzureOR</span>
+                                </div>
+                            </div>
+                            <div class="portfolio__modal-image">
+                                <img src="assets/img/work3.jpg" alt="GraphRAG Project">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal 4 -->
+                <div class="services__modal" id="project-4">
+                    <div class="services__modal-content portfolio__modal-content">
+                        <h4 class="services__modal-title">Text-to-SQL Systems <span
+                                class="portfolio__badge">GenAI</span></h4>
+                        <i class="uil uil-times services__modal-close" data-modal-close></i>
+                        <div class="portfolio__modal-body">
+                            <div class="portfolio__modal-text">
+                                <p class="portfolio__modal-description">Developed Text-to-SQL system with ReAct Agent
+                                    and SQLToolkit, reducing data retrieval time by 50%.</p>
+                                <ul class="portfolio__modal-features">
+                                    <li>Multi-turn query handling.</li>
+                                    <li>Accessible for non-tech users.</li>
+                                </ul>
+                                <div class="portfolio__modal-tech">
+                                    <span>Streamlit</span><span>OpenAI GPT-4o</span><span>LangGraph</span>
+                                </div>
+                            </div>
+                            <div class="portfolio__modal-image">
+                                <img src="assets/img/work1.jpg" alt="Text-to-SQL Project">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal 5 -->
+                <div class="services__modal" id="project-5">
+                    <div class="services__modal-content portfolio__modal-content">
+                        <h4 class="services__modal-title">RAG System (Flan T5) <span class="portfolio__badge">RAG</span>
+                        </h4>
+                        <i class="uil uil-times services__modal-close" data-modal-close></i>
+                        <div class="portfolio__modal-body">
+                            <div class="portfolio__modal-text">
+                                <p class="portfolio__modal-description">Deployed RAG system enhancing retrieval accuracy
+                                    by 40% using open source models.</p>
+                                <ul class="portfolio__modal-features">
+                                    <li>Google Flan T5.</li>
+                                    <li>FAISS Vector Store.</li>
+                                </ul>
+                                <div class="portfolio__modal-tech">
+                                    <span>LangChain</span><span>FAISS</span><span>Streamlit</span>
+                                </div>
+                            </div>
+                            <div class="portfolio__modal-image">
+                                <img src="assets/img/work2.jpg" alt="RAG System Project">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal 6 -->
+                <div class="services__modal" id="project-6">
+                    <div class="services__modal-content portfolio__modal-content">
+                        <h4 class="services__modal-title">NRW Leak Detection <span class="portfolio__badge">GNN</span>
+                        </h4>
+                        <i class="uil uil-times services__modal-close" data-modal-close></i>
+                        <div class="portfolio__modal-body">
+                            <div class="portfolio__modal-text">
+                                <p class="portfolio__modal-description">Developed GNN-based (ChebNET) leak detection for
+                                    water networks, reducing water loss by 15%.</p>
+                                <ul class="portfolio__modal-features">
+                                    <li>87% localization accuracy.</li>
+                                </ul>
+                                <div class="portfolio__modal-tech">
+                                    <span>GNN</span><span>Python</span><span>PyTorch</span>
+                                </div>
+                            </div>
+                            <div class="portfolio__modal-image">
+                                <img src="assets/img/work3.jpg" alt="NRW Leak Detection Project">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal 7 -->
+                <div class="services__modal" id="project-7">
+                    <div class="services__modal-content portfolio__modal-content">
+                        <h4 class="services__modal-title">IT Ticket Analysis <span class="portfolio__badge">NLP</span>
+                        </h4>
+                        <i class="uil uil-times services__modal-close" data-modal-close></i>
+                        <div class="portfolio__modal-body">
+                            <div class="portfolio__modal-text">
+                                <p class="portfolio__modal-description">Implemented NLP techniques for efficient IT
+                                    support, reducing resolution time by 30%.</p>
+                                <ul class="portfolio__modal-features">
+                                    <li>Topic Modeling (LDA).</li>
+                                    <li>KeyBERT Analysis.</li>
+                                </ul>
+                                <div class="portfolio__modal-tech">
+                                    <span>NLP</span><span>BERT</span><span>Gensim</span>
+                                </div>
+                            </div>
+                            <div class="portfolio__modal-image">
+                                <img src="assets/img/work1.jpg" alt="IT Ticket Analysis Project">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal 8 -->
+                <div class="services__modal" id="project-8">
+                    <div class="services__modal-content portfolio__modal-content">
+                        <h4 class="services__modal-title">Spatial Analytics App <span
+                                class="portfolio__badge">Web</span></h4>
+                        <i class="uil uil-times services__modal-close" data-modal-close></i>
+                        <div class="portfolio__modal-body">
+                            <div class="portfolio__modal-text">
+                                <p class="portfolio__modal-description">Spatial data web app improving utilization by
+                                    35% and aiding decision making.</p>
+                                <div class="portfolio__modal-tech">
+                                    <span>Plotly Dash</span><span>ArcGIS</span><span>PostgresSQL</span>
+                                </div>
+                            </div>
+                            <div class="portfolio__modal-image">
+                                <img src="assets/img/work2.jpg" alt="Spatial Analytics App">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal 9 -->
+                <div class="services__modal" id="project-9">
+                    <div class="services__modal-content portfolio__modal-content">
+                        <h4 class="services__modal-title">BeliefSat-0 <span class="portfolio__badge">IoT</span></h4>
+                        <i class="uil uil-times services__modal-close" data-modal-close></i>
+                        <div class="portfolio__modal-body">
+                            <div class="portfolio__modal-text">
+                                <p class="portfolio__modal-description">Developed command and telemetry systems for
+                                    college nanosatellite, launched by ISRO.</p>
+                                <div class="portfolio__modal-tech">
+                                    <span>C/C++</span><span>Embedded</span><span>Radio</span>
+                                </div>
+                            </div>
+                            <div class="portfolio__modal-image">
+                                <img src="assets/img/work3.jpg" alt="BeliefSat-0 Nanosatellite">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal 10 -->
+                <div class="services__modal" id="project-10">
+                    <div class="services__modal-content portfolio__modal-content">
+                        <h4 class="services__modal-title">Resume Ranking <span class="portfolio__badge">ML</span></h4>
+                        <i class="uil uil-times services__modal-close" data-modal-close></i>
+                        <div class="portfolio__modal-body">
+                            <div class="portfolio__modal-text">
+                                <p class="portfolio__modal-description">Resume ranking system increasing selection
+                                    efficiency by 40%.</p>
+                                <div class="portfolio__modal-tech">
+                                    <span>TF-IDF</span><span>Word2Vec</span><span>NLTK</span>
+                                </div>
+                            </div>
+                            <div class="portfolio__modal-image">
+                                <img src="assets/img/work1.jpg" alt="Resume Ranking System">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Portfolio Modal JavaScript -->
+            <script>
+                // Portfolio Modal Logic
+                document.addEventListener('DOMContentLoaded', () => {
+                    const portBtns = document.querySelectorAll('[data-modal-target]');
+                    const portClose = document.querySelectorAll('[data-modal-close]');
+                    const portModals = document.querySelectorAll('.services__modal'); // Selects all, including services
+
+                    portBtns.forEach(btn => {
+                        btn.addEventListener('click', () => {
+                            const target = document.querySelector(btn.dataset.modalTarget);
+                            if (target) {
+                                target.classList.add('active-modal');
+                            }
+                        })
+                    });
+
+                    portClose.forEach(close => {
+                        close.addEventListener('click', () => {
+                            const modal = close.closest('.services__modal');
+                            modal.classList.remove('active-modal');
+                        })
+                    });
+                });
+            </script>
+        </section>
+
+        <!--==================== COMPANIES ====================-->
+        <section class="companies section">
+            <h2 class="section__title">Companies</h2>
+            <span class="section__subtitle">Places I've Worked</span>
+
+            <div class="companies__container container grid">
+                <div class="companies__content">
+                    <h3 class="companies__title">KPMG Global Services</h3>
+                    <span class="companies__subtitle">Data Scientist</span>
+                </div>
+
+                <div class="companies__content">
+                    <h3 class="companies__title">Arcadis</h3>
+                    <span class="companies__subtitle">Associate Consultant</span>
+                </div>
+
+                <div class="companies__content">
+                    <h3 class="companies__title">GEP Worldwide</h3>
+                    <span class="companies__subtitle">Data Engineer</span>
+                </div>
+
+                <div class="companies__content">
+                    <h3 class="companies__title">Myraa Technologies</h3>
+                    <span class="companies__subtitle">ML Engineer (Intern)</span>
+                </div>
+            </div>
+        </section>
+
+
+        <!--==================== PROJECT IN MIND ====================-->
+        <section class="project section">
+            <div class="project__bg">
+                <div class="project__container container grid">
+                    <div class="project__data">
+                        <h2 class="project__title">Let's Collaborate</h2>
+                        <p class="project__description">I'm always open to new opportunities and collaborations. If you
+                            have a project in mind or would like to discuss a potential partnership, I'd love to hear
+                            from you.</p>
+                        <a href="#contact" class="button button--flex button--white">
+                            Contact Me
+                            <i class="uil uil-message project__icon button__icon"></i>
+                        </a>
+                    </div>
+
+                    <img src="assets/img/project.png" alt="" class="project__img">
+                </div>
+            </div>
+
+
+
+        </section>
+
+        <!--==================== ACHIEVEMENTS ====================-->
+        <section class="testimonial section">
+            <h2 class="section__title">Achievements</h2>
+            <span class="section__subtitle">Honors & Activities</span>
+
+            <div class="testimonial__container container swiper-container">
+                <div class="swiper-wrapper">
+                    <!--==================== ACHIEVEMENT 1 ====================-->
+                    <div class="testimonial__content swiper-slide">
+                        <div class="testimonial__data">
+                            <div class="testimonial__header">
+                                <!-- <img src="assets/img/testimonial1.jpg" alt="" class="testimonial__img"> -->
+
+                                <div>
+                                    <h3 class="testimonial__name">ISRO Launch</h3>
+                                    <span class="testimonial__client">Jan 2024</span>
+                                </div>
+                            </div>
+
+                            <div>
+                                <i class="uil uil-rocket testimonial__icon-star"></i>
+                            </div>
+                        </div>
+                        <p class="testimonial__description"> Successfully launched BeliefSat-0, a 2p-PocketQube
+                            nanosatellite, aboard ISRO's PSLV-C58 XPoSat.
+                        </p>
+                    </div>
+
+                    <!--==================== ACHIEVEMENT 2 ====================-->
+                    <div class="testimonial__content swiper-slide">
+
+                        <div class="testimonial__data">
+                            <div class="testimonial__header">
+                                <!-- <img src="assets/img/testimonial2.jpg" alt="" class="testimonial__img"> -->
+
+                                <div>
+                                    <h3 class="testimonial__name">Spot Bonuses</h3>
+                                    <span class="testimonial__client">Arcadis</span>
+                                </div>
+                            </div>
+
+                            <div>
+                                <i class="uil uil-award testimonial__icon-star"></i>
+                            </div>
+                        </div>
+                        <p class="testimonial__description"> Awarded 2 Spot Bonuses in a span of four months (Nov 2024
+                            and Feb 2025) for exceptional performance.
+                        </p>
+                    </div>
+
+                    <!--==================== ACHIEVEMENT 3 ====================-->
+                    <div class="testimonial__content swiper-slide">
+
+                        <div class="testimonial__data">
+                            <div class="testimonial__header">
+                                <!-- <img src="assets/img/testimonial3.jpg" alt="" class="testimonial__img"> -->
+
+                                <div>
+                                    <h3 class="testimonial__name">Space Conclave</h3>
+                                    <span class="testimonial__client">Organizer</span>
+                                </div>
+                            </div>
+
+                            <div>
+                                <i class="uil uil-users-alt testimonial__icon-star"></i>
+                            </div>
+                        </div>
+                        <p class="testimonial__description"> Organizer of Somaiya Space Conclave (Feb 2020), leading the
+                            event for space enthusiasts.
+                        </p>
+                    </div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination swiper-pagination-testimonial"></div>
+            </div>
+        </section>
+
+        <!--==================== CONTACT ME ====================-->
+        <section class="contact section" id="contact">
+            <h2 class="section__title">Contact Me</h2>
+            <span class="section__subtitle">Get in Touch </span>
+
+            <div class="contact__container container grid">
+                <div>
+                    <div class="contact__information">
+                        <i class="uil uil-phone contact__icon "></i>
+                        <div>
+                            <h3 class="contact__title">Call Me</h3>
+                            <span class="contact__subtitle">+91 9664866438</span>
+                        </div>
+                    </div>
+
+                    <div class="contact__information">
+                        <i class="uil uil-envelope contact__icon "></i>
+                        <div>
+                            <h3 class="contact__title">Email</h3>
+                            <span class="contact__subtitle">sahuaman454@gmail.com</span>
+                        </div>
+                    </div>
+
+                    <div class="contact__information">
+                        <i class="uil uil-map-marker contact__icon "></i>
+                        <div>
+                            <h3 class="contact__title">Location</h3>
+                            <span class="contact__subtitle">Mumbai, India</span>
+                        </div>
+                    </div>
+                </div>
+
+                <form action="" class="contact__form grid">
+                    <div class="contact__inputs grid">
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Name</label>
+                            <input type="text" class="contact__input">
+                        </div>
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Email</label>
+                            <input type="email" class="contact__input">
+                        </div>
+                    </div>
+                    <div class="contact__content">
+                        <label for="" class="contact__label">Query</label>
+                        <input type="email" class="contact__input">
+                    </div>
+
+                    <div class="contact__content">
+                        <label for="" class="contact__label">Message</label>
+                        <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+                    </div>
+
+                    <div>
+                        <a href="" class="button button--flex button--white">
+                            Send Message
+                            <i class="uil uil-message  button__icon"></i>
+                        </a>
+                    </div>
+                </form>
+
+            </div>
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div>
+                    <h1 class="footer__title">Aman Sahu</h1>
+                    <span class="footer__subtitle">Data Scientist</span>
+                </div>
+
+                <ul class="footer__links">
+                    <li>
+                        <a href="#services" class="footer__link">Services</a>
+                    </li>
+
+                    <li>
+                        <a href="#portfolio" class="footer__link">Portfolio</a>
+                    </li>
+
+                    <li>
+                        <a href="#contact" class="footer__link">ContactMe</a>
+                    </li>
+                </ul>
+
+                <div class="footer__socials">
+                    <a href="https://www.linkedin.com/in/aman-kumar-sahu/" target="_blank" class="footer__social">
+                        <i class="uil uil-linkedin"></i>
+                    </a>
+
+                    <a href="https://github.com/thecoffeecoder21" target="_blank" class="footer__social">
+                        <i class="uil uil-github-alt"></i>
+                    </a>
+
+                    <!-- <a href="" target="_blank" class="footer__social">
+                        <i class="uil uil-twitter-alt"></i>
+                    </a> -->
+                </div>
+
+                <p class="footer__copy"> &#169; Aman Sahu. All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
+
+    <!--==================== SCROLL TOP ====================-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+
+    <!--==================== SWIPER JS ====================-->
+    <script src="assets/js/swiper-bundle.min_old.js"></script>
+
+    <!--==================== MAIN JS ====================-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
