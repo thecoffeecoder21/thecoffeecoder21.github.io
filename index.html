@@ -1301,32 +1301,39 @@
                     </div>
                 </div>
 
-                <form action="" class="contact__form grid">
+                <form action="https://formsubmit.co/sahuaman454@gmail.com" method="POST" class="contact__form grid">
+                    <!-- FormSubmit Configuration -->
+                    <input type="hidden" name="_subject" value="New Portfolio Message!">
+                    <input type="hidden" name="_template" value="table">
+                    <input type="hidden" name="_captcha" value="false">
+
                     <div class="contact__inputs grid">
                         <div class="contact__content">
-                            <label for="" class="contact__label">Name</label>
-                            <input type="text" class="contact__input">
+                            <label for="name" class="contact__label">Name</label>
+                            <input type="text" name="name" id="name" class="contact__input" required>
                         </div>
                         <div class="contact__content">
-                            <label for="" class="contact__label">Email</label>
-                            <input type="email" class="contact__input">
+                            <label for="email" class="contact__label">Email</label>
+                            <input type="email" name="email" id="email" class="contact__input" required>
                         </div>
                     </div>
                     <div class="contact__content">
-                        <label for="" class="contact__label">Query</label>
-                        <input type="email" class="contact__input">
+                        <label for="subject" class="contact__label">Subject</label>
+                        <input type="text" name="subject" id="subject" class="contact__input" required>
                     </div>
 
                     <div class="contact__content">
-                        <label for="" class="contact__label">Message</label>
-                        <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+                        <label for="message" class="contact__label">Message</label>
+                        <textarea name="message" id="message" cols="0" rows="7" class="contact__input"
+                            required></textarea>
                     </div>
 
                     <div>
-                        <a href="" class="button button--flex button--white">
+                        <button type="submit" class="button button--flex button--white"
+                            style="border: none; cursor: pointer;">
                             Send Message
-                            <i class="uil uil-message  button__icon"></i>
-                        </a>
+                            <i class="uil uil-message button__icon"></i>
+                        </button>
                     </div>
                 </form>
 
